@@ -1,0 +1,55 @@
+.skill{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    min-height:400px;  
+}
+.Heading h1{
+    color : black;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.Heading p {
+    color : grey;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-family: "Roboto Mono", monospace;
+}
+
+@media only screen and (max-width: 960px){
+
+    .SKILL-CENTER{
+        width: 960px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .Heading{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items:center ;
+    }
+
+    .Heading h1{
+        margin-left: 70px;
+    }
+
+    .Heading p{
+        margin-left: 70px;
+        width: 550px;
+        margin-bottom:20px ;
+    }
+    .skill{
+        
+        height:10px;
+        margin: auto;
+        
+    }
+}

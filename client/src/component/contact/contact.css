@@ -1,0 +1,228 @@
+.contact {
+  background-color: rgb(147, 146, 146);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  height: 700px;
+}
+
+.contact h1 {
+  margin-left: 200px;
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+.contact p {
+  margin-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+
+.contact-data {
+  height: 300px;
+  width: 1050px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.left-form {
+  flex: 1;
+}
+
+.left-form form {
+  /* border: 2px solid black; */
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.left-form input {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(59, 58, 58);
+  color: rgb(202, 201, 201);
+  border: none;
+  margin: 20px 10px 30px 20px;
+  width: 80%;
+}
+.left-form input[type="number"] {
+  color: rgb(202, 201, 201);
+}
+
+.right-form {
+  flex: 1;
+  margin-top: 30px;
+}
+
+.right-form textarea {
+  color: rgb(202, 201, 201);
+  background-color: rgb(59, 58, 58);
+  width: 450px;
+  height: 210px;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 20px;
+  border: 15px solid rgb(59, 58, 58);
+}
+
+.send-button {
+  height: 100px;
+  width: 1050px;
+  background-color: white;
+  margin: auto;
+}
+
+.send-contact {
+  padding: 15px;
+  font-size: 16px;
+  margin-left: 420px;
+  border: 1px solid black;
+  margin-top: 20px;
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  transition: al 0.6s ease-in-out;
+  display: blok;
+}
+
+.send-contact:hover {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media only screen and (max-width: 960px) {
+  .contact {
+    height: 1000px;
+    width: 960px;
+   
+  }
+  .contact-data {
+    flex-direction: column;
+    height: 500px;
+    width: 660px;
+  }
+  .left-form {
+    width: 660px;
+  }
+  .left-form input {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .right-form {
+    width: 660px;
+    margin: auto;
+  }
+
+  .right-form textarea {
+    display: block;
+    margin-left: 33px;
+    width: 550px;
+    height: 150px;
+    /* margin: auto; */
+  }
+
+  .send-button {
+    width: 660px;
+    justify-content: center;
+    margin-top: -20px;
+    
+  }
+
+  .send-contact {
+    padding: 15px;
+    font-size: 16px;
+    margin-left: 250px;
+    border: 1px solid black;
+    margin-top: 0px;
+    background-color: white;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    transition: al 0.6s ease-in-out;
+    /* display: blok; */
+  }
+
+  .send-contact:hover {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .contact h1 {
+    margin-left: 400px;
+  }
+
+  .contact p {
+    margin-left: 200px;
+    width: 550px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .contact {
+    height: 1000px;
+    width: 375px;
+   
+  }
+  .contact-data {
+    flex-direction: column;
+    height: 500px;
+    width: 375px;
+  }
+  .left-form {
+    width: 375px;
+  }
+  .left-form input {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .right-form {
+    width: 375px;
+    margin: auto;
+  }
+
+  .right-form textarea {
+    display: block;
+    margin-left: 33px;
+    width: 250px;
+    height: 100px;
+    /* margin: auto; */
+  }
+
+  .send-button {
+    width: 660px;
+    justify-content: center;
+    margin-top: -20px;
+    
+  }
+
+ 
+
+
+
+  .contact h1 {
+    /* margin-left: 400px; */
+    font-size: 20px;
+  }
+
+  .contact p {
+    /* margin-left: 200px; */
+    width: 100px;
+  }
+}
