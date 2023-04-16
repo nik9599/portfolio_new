@@ -28,3 +28,17 @@
     padding-bottom: 20px;
     font-family: "Roboto Mono", monospace;
 }
+
+@media screen and (max-width: 1110px) {
+    .parent-f{
+        width: 1110px ;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .parent-f{
+       width : 700px;
+       /* display: block; */
+    }
+  }
+

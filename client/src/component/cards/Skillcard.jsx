@@ -1,13 +1,13 @@
 import React from "react";
-import "./skillcard.css";
-import {Line , Circle} from 'rc-progress';
+import "../../index.css";
+import { Circle} from 'rc-progress';
 
 
 export default function Skillcard({ name, percentage }) {
   return (
     
-    <div className="Skill">
-      <h1>{name} - {percentage}%</h1>
+    <div className="w-48 h-[250px] pb-52 shadow-lg">
+      <h1 className="pt-2 pb-2 pl-4" >{name} - {percentage}%</h1>
       
       <div className="progressBar">
       <Circle

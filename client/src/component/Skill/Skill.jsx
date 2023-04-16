@@ -1,18 +1,18 @@
 import React from "react";
-import "./skill.css";
+import "../../index.css";
 import Skillcard from "../cards/Skillcard";
 function Skill() {
   return (
     <div className="SKILL-CENTER">
       <div className="Heading">
         
-        <h1>SKILL</h1>
-        <p>
+        <h1 className="lg:text-4xl lg:font-semibold lg:pl-28 pb-7 " >SKILL</h1>
+        <p className="lg:pl-28 pb-10 " >
           Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
           vehicula enim, non aliquam risus.
         </p>
       </div>
-      <div className="skill">
+      <div className="grid lg:grid-cols-3 lg:grid-flow-roww gap-2 lg:ml-32">
         <Skillcard name="Nodejs" percentage="75" />
         <Skillcard name="React js" percentage="90" />
         <Skillcard name="HTML" percentage="100" />
